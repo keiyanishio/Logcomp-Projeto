@@ -19,7 +19,7 @@ EXPRESSION = TERM, {("+" | "-" | "."), TERM};
 
 TERM = FACTOR, {("*" | "/"), FACTOR };
 
-FACTOR = (("+" | "-" | "!"), FACTOR | NUMBER | LETTER | "(", EXPRESSION, ")" | IDENTIFIER | PRINT, "(", ")");
+FACTOR = (("+" | "-" | "!"), FACTOR | NUMBER | LETTER | "(", EXPRESSION, ")" | IDENTIFIER | SCAN, "(", ")");
 
 COMPARISON = (EXPRESSION, ("==" | "<" | ">" | "<=" | ">="), EXPRESSION);
 
@@ -56,5 +56,5 @@ lyrical -> if
 
 beat -> else
 
-
+Barsize -> scanln
 
