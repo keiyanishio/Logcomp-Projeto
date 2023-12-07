@@ -59,5 +59,10 @@ lyrical -> if
 
 beat -> else
 
-Barsize -> scanln
+barsize -> scanln
 
+rap -> println
+
+rapper -> func
+
+rehearse -> return
