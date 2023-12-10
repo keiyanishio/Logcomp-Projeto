@@ -2,7 +2,7 @@
 
 # FLOW LANG 
 
-Desenvolvendo uma linguagem inspirada no mundo do Rap, fundamentada em Go Lang e impulsionada pelo compilador construído durante as aulas de Lógica da Computação.
+Desenvolvendo uma linguagem inspirada no mundo do Rap, fundamentada em Golang e impulsionada pelo compilador construído durante as aulas de Lógica da Computação.
 
 
 ## EBNF
