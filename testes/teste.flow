@@ -1,22 +1,3 @@
-
-//rapper soma(x bar, y bar) bar {
-//	rhyme a bar 
-//	a = x + y
-//	rap(a)
-//	rehearse a
-//}
-//rapper main() bar{
-//	rhyme a bar
-//	rhyme b bar
-//	a = 3
-//	b = soma(a, 4)
-//	rap(a)
-//	rap(b)
-//}
-
-
-
-
 rapper soma(x bar, y bar) bar {
     rehearse x + y
 }
@@ -30,7 +11,7 @@ rapper concat(a verse, b verse) verse {
     rehearse a . b
 }
 
-rapper main() bar {
+rapper MC() bar {
     rhyme x_1 bar
     x_1 = soma(read()-1, 1)
     soma(2, 1)
@@ -41,7 +22,7 @@ rapper main() bar {
         x_1 = 2
     } 
 
-    rhyme x bar = 3+6/3   *  2 -+-  +  2*4/2 + 0/1 -((6+ ((4)))/(2)) // Teste // Teste 2
+    rhyme x bar = 3+6/3   *  2 -+-  +  2*4/2 + 0/1 -((6+ ((4)))/(2))
     rhyme y_1 bar = 3
     y_1 = soma(y_1, x_1)
     rhyme z__ bar
@@ -68,7 +49,6 @@ rapper main() bar {
     rap(x)
     rap(z__+1)
 
-    // All bool and int operations
     rhyme y bar = 2
     rhyme z bar
     z = (y == 2)
@@ -80,7 +60,6 @@ rapper main() bar {
     rap(y < z)
     rap(y > z)
 
-    // All str operations 
     rhyme a verse 
     rhyme b verse
 

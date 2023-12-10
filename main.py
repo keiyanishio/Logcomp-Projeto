@@ -29,7 +29,7 @@ class Parser:
         children = []
         while self.tokenizer.next.t_type != 'EOF':
             children.append(self.parseDeclaration())
-        children_main = FuncCall("main", [])
+        children_main = FuncCall("MC", [])
         children.append(children_main)
         return Block(None, children)
     
