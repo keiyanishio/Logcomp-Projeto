@@ -1,0 +1,17 @@
+rapper soma(x bar, y bar) bar {
+    rehearse x + y
+}
+
+rapper concat(a verse, b verse) verse {
+    rehearse a . b
+}
+
+rapper MC() bar {
+    rhyme a verse = "Astro"
+    rhyme b verse = "World"
+    rhyme x bar = 1
+    rhyme y bar = 0
+
+    rap(soma(x, y))
+    rap(concat(a, b))
+}

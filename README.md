@@ -2,8 +2,12 @@
 
 # FLOW LANG 
 
-Desenvolvendo uma linguagem inspirada no mundo do Rap, fundamentada em Golang e impulsionada pelo compilador construído durante as aulas de Lógica da Computação.
+Desenvolvendo uma linguagem utilizando os termos e as gírias do Rap, inspirada na linguagem Golang e impulsionada pelo compilador construído durante as aulas de Lógica da Computação.
 
+## Como testar
+```
+python main.py testes/<nome do arquivo de teste>.flow
+```
 
 ## EBNF
 
@@ -49,23 +53,3 @@ STRING = ( a | ... | z | A | .. | Z);
 
 DIGIT = ( 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0 );
 ```
-
-rhyme -> var 
-
-bar -> int 
-
-verse -> string 
-
-flow -> for
-
-lyrical -> if 
-
-beat -> else
-
-barsize -> scanln
-
-rap -> println
-
-rapper -> func
-
-rehearse -> return

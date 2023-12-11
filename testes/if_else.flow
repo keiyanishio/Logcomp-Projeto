@@ -1,0 +1,14 @@
+rapper MC() bar {
+
+    rhyme t verse = "Tupac"
+    rhyme b verse = "Biggie"
+    rhyme x_1 bar
+
+    x_1 = barsize()
+
+    lyrical x_1 == 1 {
+        rap(t)
+    } beat {
+        rap(b)
+    }
+}

@@ -1,0 +1,8 @@
+rapper MC() bar {
+
+    rhyme x_1 bar  
+
+    flow x_1 = 0; x_1 < 4; x_1 = x_1 + 1 {
+	    rap(x_1)
+    }
+}

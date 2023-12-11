@@ -120,9 +120,9 @@ class ForLoop(Node):
             
 class IfCond(Node):
     def evaluate(self, ST):
-        if self.children[0].evaluate(ST):
+        if self.children[0].evaluate(ST)[0]:
             self.children[1].evaluate(ST)
-        elif (len(self.children)>2):
+        elif len(self.children)>2:
             self.children[2].evaluate(ST)
             
 ########################################################################
